@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+  font-family: "Pacifico", cursive;
+background-color: #041562;
+}
+
+
+#seleccionar-mascota{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titulo {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+}
+.subtitulo{
+  color: rgb(255, 255, 255);
+
+}
+.targetas, .targetas-ataques{
+  display: flex;
+  gap: 10px;  
+}
+.targeta-mokepon{
+  width: 180px;
+  height: 100px;
+  background: #11468f;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px;
+  border: 1px solid red;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.targeta-mokepon img{
+  width: 80px;
+}
+#boton-mascota{
+  width: 180px;
+  height: 30px;
+  background-color: blueviolet;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+ input{
+  display: none; 
+ }
+  input:checked + label{
+  background: red ;
+}
+#seleccionar-ataque{
+  flex-direction: column;
+  align-items: center;
+}
+.boton-de-ataque{
+  background-color: blueviolet;
+  border: 2px solid #11468f;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box; 
+  border-color: transparent;
+  width: 100px;
+  color: white;
+  font-family: "Pacifico", cursive;
+
+}
+#mensajes{
+  width: 180px;
+  background: #EEEEEE;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+#boton-reiniciar{
+  border: none;
+  color: rgb(67, 102, 201);
+  font-family: "Pacifico", cursive;
+}
+.ataques{
+  display: grid;
+  grid-template-columns: 100px 100px;
+}
+.ataques-jugador, .ataques-enemigo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border: 2px solid white;
+
+}
+@media(max-width:360px){
+  .targetas, .targetas-ataques{
+    flex-direction: column;
+  }
+}
