@@ -132,7 +132,7 @@ function mostrarAtaques(ataques){
         contenedorAtaques.innerHTML += ataquesMokepon
     })
 }
-
+FileSystem
 function seleccionarMascotaEnemigo() {
     let mascotaAleatoria = aleatorio(0, mokepones.length -1)
 
