@@ -67,7 +67,7 @@ background-color: #041562;
   padding: 10px;
   box-sizing: border-box; 
   border-color: transparent;
-  width: 100px;
+  width: 80px;
   color: white;
   font-family: "Pacifico", cursive;
 
@@ -98,6 +98,14 @@ flex-direction: column;
   color: white;
   border: 2px solid white;
 
+}
+#ver-mapa{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#mapa{
+  border: 2px solid white;
 }
 @media(max-width:360px){
   .targetas, .targetas-ataques{
