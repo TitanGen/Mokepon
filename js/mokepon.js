@@ -227,7 +227,7 @@ function combate() {
             }
         }
 
-    revisarVidas()
+    revisarVidas();
 }
 
 function revisarVidas() {
