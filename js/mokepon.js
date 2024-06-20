@@ -97,7 +97,7 @@ function iniciarJuego() {
         <input type="radio" name="mascota" id=${mokepon.nombre} />
                 <label class="targeta-mokepon" for=${mokepon.nombre}>
                     <p>${mokepon.nombre}</p>
-                    <img src=${mokepon.foto} alt=${mokepon.nombre}>
+                    <img src=${v.foto} alt=${mokepon.nombre}>
 
                 </label>
         `
